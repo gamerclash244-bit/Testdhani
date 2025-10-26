@@ -1,2 +1,37 @@
+body {
+ background-color: black;
+}
 
+.container {
+  margin: 100px 0 0 200px;
+  width: 60%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
 
+.container img {
+  width: 10%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: ghostwhite;
+  transition: all ease-in-out 0.5s;
+ align-self: center;
+}
+
+.container img:hover {
+  width: 25%;
+}
+  
+.search-container {
+ text-align: center;
+ background-color: #400400;
+ font-size: 20px;
+ font-family: poppins, san-serif;
+ input:hover {box-shadow: 0 0 100px  red;
+ }
+ 
+ 
+ 
